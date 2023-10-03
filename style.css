@@ -1,962 +1,408 @@
-
-.header{
-    width: 1900px;
-    height: 600px;
-    z-index: 10005px;
-}
 .headerbox{
-    width: 1900px;
-    height: 160px;
+    width: 1400px;
+    background-color:white;
+    height: 200px;
+    margin-left: 100px;
     display: flex;
-
+    align-items: center;
 }
-.N1{
-    width: 800px;
-    height: 160px;
-    background-color: black;
-    
-    
-   
-}
-.add{
-    width: 206px;
-    height: 37px;
-    margin-left: 30px;
-
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
 .text1{
+    font-size: 30px;
+    color: red;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: white;
-    
-    margin-top: 15px;
-}
-.pl{
-    width: 399px;
-    height: 118px;
     margin-left: 30px;
 
 }
-.text2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: white;
-}
-button{
-    width: 140px;
-    height: 56px;
-    margin-left: 500px;
-    
-    
-    
-    border-radius: 35px;
-    
-}
-.N2{
-    width: 900px;
-    height: 160px;
- 
-    
-}
-.estetic{
-    height: 160px;
-    width: 900px;
-}
-.N3{
-    width: 1900px;
-    height: 60px;
-    display: flex;
-    
-    
-   
-    background-color: white;
-}
-.pboxs{
-    width: 188px;
-    height: 100px;
-    margin-left: 280px;
-    margin-top: 20px;
-}
-.text4{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.searchbox{
-    width: 300px;
-    height: 38px;
-    border-radius: 35px;
-    background-color: white;
-    margin-left: 50px;
-    margin-top: 10px;
-    background-color: aliceblue;
-}
-.search{
-    width: 20px;
-    height: 20px;
-    margin-top: 14px;
-    margin-left: 10px;
-}
-.rev{
-    width: 90px;
-    height: 40px;
-   
-    margin-left: 50px;
-    display: flex;
-    border-radius: 30px;
-    align-items: center;
-    margin-top: 10px;
-}
-.pen{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-
-}
-.r{
-    margin-left:5px; 
-}
-.guli{
-    width: 90px;
-    height: 40px;
-   
-    margin-left: 50px;
-    display: flex;
-    border-radius: 30px;
-    
-    margin-top: 10px;
-    align-items: center;
-}
-.hart{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-}
-.h{
-    margin-left: 5px;
-}
-.za{
-    width: 90px;
-    height: 40px;
-   
-    margin-left: 50px;
-    display: flex;
-    border-radius: 30px;
-    
-    margin-top: 10px;
-    align-items: center;
-    border-color: black;
-}
-.zari{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-}
-.si{
-    display: flex;
-    width: 90px;
-    height: 40px;
-    border-radius: 40px;
-    background-color: black;
-    margin-left: 100px;
-    align-items: center;
-    margin-top: 10px;
-    ;
-}
-.s{
-    color: white;
-    margin-left: 15px;
-}
-
-nav{
-    width: 1900px;
-    height: 35px;
-}
-
-
 ul{
     display: flex;
-    margin-left: 220px;
-    margin-top: 13px;
+    align-items: center;
+    margin-left: 100px;
 }
-li{
-    margin-left: 60px;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
+.list{
+    margin-left: 30px;
 }
-.box2line{
-    width: 1800px;
-    height: 2px;
-    background-color: grey;
-}
-.hed1{
-    width: 1900px;
-    height: 144px;
-    background-color:white;
-}
-.hi{
-    width: 56px;
-    height: 32px;
-    font-size: 27px;
-    font-family: sans-serif;
-    color: blue;
-    display: flex;
-}
-.deda{
-    margin-left: 275px;
-    
-}
-.clock{
-    width: 20px;
-    height: 20px;
-    border-radius: 35px;
-    margin-left: 40px;
+.hum{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
    
-
-}
-.cl{
-    font-size: 16px;
-    margin-top: 4px;
 
 }
 .round{
-    width: 174px;
-    height: 22px;
-    display: flex;
-
-   
-}
-.circle{
-    border-radius: 50px;
-
-}
-.sirc{
-    font-size: 14px;
-    margin-top: 3px;
-}
-.my{
-    height: 20px;
-    width: 1px;
-    background-color: darkgray;
-    margin-left: 5px;
-}
-.mama{
-    width: 1232px;
-    height: 24px;
+    margin-left: 80px;
     background-color: white;
-    display: flex;
-}
-.spans{
-    display: flex;
-    align-items: center;
-    width: 236px;
-    height: 14px;
-    margin-left: 15px;
-    margin-top: 2px;
-}
-.sp{
-    font-size: 10px;
-    margin-top: 5px;
-}
-.dol{
-    width: 300px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-}
-.dolar{
-    font-size: 12px;
-}
-.guli{
-    margin-left: 970px;
-}
-.lok{
-    width: 388px;
-    height: 16px;
-    
-    display: flex;
-    margin-left:275px ;
-   
-    margin-top: 5px;
-
-}
-.lokac{
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-}
-.cale{
-    font-size: 14px;
-}
-.nomber{
-    font-size: 12px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
-.chik{
-    display: flex;
-   
-    width: 1232px;
-    height: 30px;
-   
-}
-.N99{
-    width: 1px;
-    height: 22px;
-    background-color: gray;
-   margin-left: 15px;
-}
-.www{
-    display: flex;
-    margin-left: 20px;
-    
-
-}
-.veb{
-    border-radius: 70px;
-    
-}
-.web{
-    font-size: 12px;
-    margin-top: 5px;
-}
-.menu{
-    font-size: 12px;
-    margin-left: 20px;
-    margin-top:5px ;
-}
-.mic{
-    width: 63px;
-    height: 12px;
-    margin-left: 275px;
-}
-.mich{
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: red;
-}
-.secbox{
-    width: 1900px;
-    height: 2100px;
-    margin-top: 20px;
-
-}
-.yellow{
-    width: 1900px;
-    height: 340px;
-    background-color: antiquewhite;
-    
-}
-.green{
- width:410px;
- height: 338px;
- background-color: white;
- margin-left: 270px;
- display: flex;
-}
-.dark{
-    width: 398px;
-    height: 128px;
-   
-    padding: 20px 16px;
-}
-.short{
-    width: 398px;
-    height: 66px;
-    display: flex;
-    
-
-}
-.fork{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    margin-left: 180px;
-}
-.f{
-    margin-top: 5px;
-}
-.buton{
-  width: 360px;
-  height: 35px;
-  border-radius: 18px;
-  background-color: orange;
-  padding:8px 16px  ;
-  margin-right: 25px;
-}
-.rec{
-    font-size: 14px;
-    font-family: trip sans-serif;
-    margin-left: 140px;
-    margin-top: 10px;
-
-}
-.str{
-    width: 400px;
-    height: 330px;
-}
-.restoran{
-    width: 400px;
-    height: 338px;
-    
-}
-.rtr{
-    display: flex;
-}
-.samshabati{
-    width: 1295px;
-    height: 480px;
-    background-color: whitesmoke;
-    margin-left: 270px;
-    display: flex;
-}
-.mqrali{
-   width: 390px;
-   height: 480px;
-    background-color: whitesmoke;
-}
-.ttt{
-    width: 344px;
-    height: 22px;
-    margin-top: 20px;
-}
-   .ttd{
-    width: 344px;
-    height: 22px;
-    margin-top: 20px;
-   }
-   h2{
-    margin-top: 30px;
-   }
-  .round1{
-    width: 175px;
-    height: 22px;
-    display: flex;
-    margin-top: 20px;
-  }
-  .rounddd{
-    width: 70px;
-    height: 12px;
-    display: flex;
-    margin-left: 250px;
-  }
-   .mic1{
-    width: 63px;
-    height: 12px;
-   margin-left: 20px;
-   
-}
-   .gui{
-    font-size: 10px;
-    margin-top: 10px;
-    margin-left: 100px;
-   }
-   .xazi{
-    width: 300px;
-    height: 2px;
-    background-color: black;
-    margin-left: 50px;
-    margin-top: 30px;
-   }
-   .rai{
-    margin-left: 30px;
-    font-size: 12px;
-    margin-top: 20px;
-   }
-   .meoreround{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 20px;
-   }
-   .mesame{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 20px;
-
-   }
-   .service{
-    margin-top: 20px;
-   }
-   .roundebi{
-    display: flex;
-    width: 70px;
-    height: 12px;
-    margin-left: 285px;
-   }
-   .val{
-    margin-left: 20px;
-    margin-top: 10px;
-   }
-  .atm{
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  .n123{
-    width: 390px;
-    height: 480px;
-    background-color: whitesmoke;
-  
-  }
-.l123{
-    width: 344px;
-    height: 38px;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.pri{
-    width: 344px;
-    height: 38px;
-  
-    margin-left: 20px;
-
-}
-.price{
-    font-size: 10px;
-}
-.many{
-    margin-left:20px ;
-}
-.man{
-    font-size: 14px;
-}
-.kuz{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.medi{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.media{
-    font-size: 14px;
-}
-.diet{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.veget{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.bolo{
-    margin-left: 20px;
-    margin-top: 200px;
-}
-.naxva{
-    font-style: inherit;
-    font-size: 15px;
-}
-.meoreloca{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 20px;
-}
-.la{
-    margin-top:15px ;
-    margin-left: 20px;
-}
-.gran{
-    font-size: 12px;
-}
-.foto{
-    margin-left: 55px;
-    width: 344px;
-    height: 150px;
-    margin-top: 10px;
-}
-.disk{
-    width: 1295px;
-    height: 185px;
-    background-color: whitesmoke;
-    margin-left: 270px;
-}
-.par{
-    width: 730px;
-    height: 40px;
-    margin-top: 20px;
-}
-.parag{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-   margin-left: 30px;
-   
-}
-.member{
-    margin-top: 10px;
-    margin-left: 30px;
-}
-button{
-    background-color: yellowgreen;
-    margin-left: 40px;
-    margin-top: 40px;
-
-}
-button1{
-    background-color:wheat;
-    margin-left: 40px;
-    margin-top: 40px;
-    border-radius: 30px;
-    width: 180px;
-    height: 36px;
-   
-}
-.bukuko{
-    margin-top: 50px;
-}
-.geli{
-    font-size: 13px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.amerikuli{
-    font-size: 13px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-    
-
-
-.kuk{
-    width: 453px;
-    height: 185px;
-    
-
-}
-.dy{
-    display: flex;
-}
-   .gasagebi{
-    width: 450px;
-    height: 170px;
-    margin-top: 8px;
-    margin-left: 100px;
-    transition: all 1s;
-   }
-   .kent{
-    width: 1300px;
-    height: 151px;
-    background-color: whitesmoke;
-    margin-left: 270px;
-   }
-   .kombo{
-    width: 1182px;
-    height: 120px;
-    margin-top: 30px;
-   }
-.suzan{
-   margin-top: 30px;
-   font-size: 18px;
-   margin-left: 30px;
-
-}
-.jeni{
-    margin-left:30px ;
-    margin-top: 30px;
-}
-.aris{
-    margin-left: 30px;
-    margin-top: 30px;
-
-}
-.toni{
-    font-size: 11px;
-}
-.ganieri{
-    margin-left: 270px;
-    margin-top: 80px;
-    width: 1270px;
-    height: 70px;
-    background-color: white;
-    padding: 16px 24px;
-
-  
-}
-.santa{
-    margin-left: 30px;
-    font-size: 14px;
-}
-.jiji{
-    width: 800px;
-    height: 700px;
-    background-color: white;
-    margin-left: 270px;
-    
-}
-.lela{
-    display: flex;
-    align-items: center;
-    width: 780px;
-    height: 34px;
-    margin-left: 20px;
-}
-.butjoi{
-    width: 180px;
-    height: 25px;
-    background-color: black;
-    margin-left: 300px;
-
-
-}
-.ku{
-    
-    margin-left: 30px;
-
-
-}
-.kuebi{
-    display: flex;
-    width: 180px;
-}
-
-.write{
-    color: white;
-    font-size: 12px;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-.poli{
-    width: 700px;
-    height: 1px;
-    background-color:black;
-    margin-left: 20px;
-}
-.radio{
-    width: 20px;
-    height: 20px;
-}
-.racha{
-    display:flex;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.tr{
-    margin-left: 28px;
-    margin-top: 30px;
-}
-.one{
-    width: 105.23px;
-    height: 12px;
-    background-color: black;
-}
-.two{
-    width: 85px;
-    height: 12px;
-    background-color:darkgray;
-}
-.duet1{
-    display: flex;
-    margin-left: 20px;
-}
-
-.one1{
-    width: 60px;
-    height: 12px;
-    background-color: black;
-}
-
-.one2{
-    width: 60px;
-    height: 12px;
-    background-color: black;
-}
-.one3{
-    width: 45px;
-    height: 12px;
-    background-color: black;
-}
-
-.two2{
-    width: 130px;
-    height: 12px;
-    background-color: darkgray;
-   }
-
-
-.two2{
-    width: 130px;
-    height: 12px;
-    background-color: darkgray;
-   }
-   .two1{
-    width: 130px;
-    height: 12px;
-    background-color: darkgray;
-   }
-   .two3{
-    width: 145px;
-    height: 12px;
-    background-color: darkgray;
-   }
-.ideali{
-    display: flex;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.duet{
-    display: flex;
-    margin-left: 6px;
-}
-.duet2{
-    display: flex;
-    margin-left: 35px;
-}
-.duet3{
-    display: flex;
-    margin-left: 63px;
-}
-.jojodeda{
-    width: 1800px;
-    display: flex;
-    background-color: white;
-}
-.mylo{
-    display: flex;
-    margin-top: 30px;
-}
-.subscribe{
-    display: flex;
-    margin-top: 20px;
-
-}
-.giki{
-    width: 50px;
-    border-radius: 50px;
-}
-.gug{
-    font-size: 12px;
-    margin-top: 10px;
-}
-.maimuni{
-   margin-left: 30px;
-}
-
-
-.roundebi4{
-    display: flex;
-    width: 70px;
-    height: 12px;
-    margin-left:88px;
-}
-.asorti{
-    display: flex;
-    width: 700px;
-    height: 16px;
-   
-}
-.fff{
-    font-size: 11px;
-
-}
-.xaziani{
-    width: 700px;
-    height: 2px;
-    background-color: darkgrey;
-    margin-left: 50px;
-    margin-top: 40px;
-}
-.realii{
-    margin-left: 88px;
-    margin-top: 8px;
-}
-.walia{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.duoli{
-    width: 580px;
+    width: 250px;
     height: 60px;
-    margin-left: 90px;
-    margin-top: 10px;
-}
-.gilo{
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.lokoebi{
-    width: 572px;
-    height: 84px;
     display: flex;
-    margin-left: 90px;
+    align-items: center;
+    border-radius: 50px;
 }
-.kora{
-    margin-left: 20px;
+.text2{
+    font-size: 14px;
+    margin-left: 15px;
 }
-.lavashi{
-    margin-left: 20px;
+section{
+    width: 1400px;
+    height: 2005px;
+    background-color:white;
+    margin-left: 100px;
 }
-.shu{
-    margin-left: 20px;
+.big{
+    width: 1350px;
+    height: 500px;
+    background-color:white;
+    display: flex;
 }
-.date{
-    margin-left: 90px;
-   margin-top: 20px;
-   width: 400px;
-   height: 26px;
+.cont1{
+    width: 700px;
+    height: 450px;
+  
 }
-.data{
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.smal1{
+    width:800px;
+    height: 300px;
+    background-color: white;
 }
-.note{
-
-    width: 600px;
-    height: 2px;
-    background-color: darkgray;
-    margin-left:80px ;
-}
-.open{
-    width: 500px;
-    height: 100px;
-    margin-left: 85px;
-}
-.subject{
-    font-size: 12px;
+h1{
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 10px;
     
 }
-.fresh{
-    width: 1200px;
-    height: 185px;
-    background-color: white;
-    margin-left: 280px;
-}
-.look{
-    width: 1184px;
-    height: 34px;
-    background-color: white;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.looking{
+h2{
+    margin-left: 15px;
     font-size: 25px;
     margin-top: 10px;
 }
-.iseve{
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.fleqsi{
+ul1{
     display: flex;
-    width: 1100px;
-    height: 100px;
-    background-color: white;
+    align-items: center;
+    
+
 }
-.outteqst{
-    width: 748px;
-    font-size: 11px;
+.text2{
+    margin-top: 10px;
+    font-size: 13px;
     
 }
-.poni{
-    transition: all 2s;
+.text4{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.poni::first-letter{
+.r1{
+    background-color: brown;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+.box3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.box4{
+    width: 1000px;
+    height: 150px;
+  
+    display: flex;
+    margin-top: 100px;
+    background-color: wheat;
+    
+   
+   
+  
+}
+.box5{
+    width: 170px;
+    height: 50px;
+    
+ 
+   padding: 10px 10px 10px 10px;
+}
+.text5{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.text6{
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    
+}
+.box7{
+    width: 340px;
+    height: 100px;
+    background-color: wheat;
+    border-color: bisque;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+}
+.text8{
+    margin-top: 10px;
+}
+.buton{
+    width: 330px;
+    height: 48px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.line{
+    width: 1px;
+    height: 150px;
+    background-color:darkcyan;
+}
+.komp{
+    width: 350px;
+    height: 350px;
+    margin-left: 110px;
+}
+.textu{
+    margin-left: 130px;
+    font-size: 18px;
+}
+.infotext{
+    margin-left: 110px;
+    font-size: 12px;
+}
+.box10{
+    
+}
+.cont2{
+    width: 1600px;
+    height: 50px;
+    background-color: wheat;
+    margin-top: 70px;
+    
+}
+.list1{
+    margin-left: 30px;
+    margin-top: 15px;
+    color: white;
+}
+.textbig{
+    font-size: 18px;
+}
+.senior1{
+    width: 880px;
+    height: 430px;
+    background-color: whitesmoke;
+    margin-left: 60px;
+    padding: 0px 12px 32px;
+}
+.buton2{
+    width: 146px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 50px;
+    border-color:red;
+}
+.read{
+    color: red;
+}
+.oun{
+    width: 16px;
+    height: 16px;
+}
+.small2{
+    width: 280px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.in{
+    font-size: 12px;
+}
+.textbig{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.senior{
+    display: flex;
+}
+.divebi{
+    width: 450px;
+    height: 250px;
+    padding: 35px 20px 15px;
+}
+.card2{
+    width: 70px;
+    height: 50px;
+    border-radius: 35px;
+    margin-left: 150px;
+    transition: all 1s;
+
+}
+.card2::first-letter{
     text-transform: uppercase;
 }
-.poni:hover{
+.card2:hover{
     transform: scale(1.1);
 }
-.gasagebi::first-letter{
-    text-transform: uppercase;
+.ons{
+    width: 360px;
+    height:55px ;
 }
-.gasagebi:hover{
-    transform: scale(1.2);
+.on{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
 }
+.up{
+    width: 400px;
+    height: 48px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.sign{
+    font-size: 17px;
+    color: brown;
+    margin-left: 150px;
+}
+.broun{
+    width: 1600px;
+    height: 500px;
+    background-color: brown;
+}
+.junior{
+    width: 700px;
+    height: 450px;
+    background-color: whitesmoke;
+    margin-left: 300px;
+    border-radius: 35px 35px 0px 0px;
+}
+.jun{
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    margin-top: 15px;
+}
+.jei{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 17px;
+}
+.wert{
+    margin-left: 20px;
+}
+.n{
+    margin-top: 10px;
+}
+.tvit{
+    width: 770px;
+    height: 400px;
+   
+}
+.tick{
+    
+    display: flex;
+}
+ul1{
+    margin-top: 10px;
+}
+.m{
+    margin-top: 10px;
+}
+.foto{
+    width: 450px;
+    height: 450px;
+    margin-left: 60px;
+}
+.scr{
+    width: 350px;
+    height: 350px;
+}
+.ninas{
+    width: 400px;
+    height: 400px ;
+    background-color:white;
+    border-radius: 0px 0px 30px 30px;
+}
+.out{
+    margin-top: 10px;
+}
+.k{
+    margin-top: 15px;
+
+}
+.rbox{
+   
+    width:1200px ;
+    height: 208px;
+   
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+html{
+    width: 1800px;
+    height: 2900px;
+   
+
+}
+.sm{
+    width: 300px;
+    height: 150px;
+   
+    
+    margin-left: 250px;
+    margin-top: 50px;
+}
+    .red{
+       margin-left: 250px;
+    }
+    .futbox{
+        width: 1500px;
+        height: 430px;
+        background-color: rgb(94, 28, 156);
+        
+    }
+    nav{
+        display: flex;
+       
+    }
+    .soft{
+       height: 100px;
+       width: 100px;
+       
+       margin-left: 160px;
+      
+    
+    }
+    h4{
+        margin-left: 50px;
+        color: blueviolet;
+    }
+    ul3{
+        
+        margin-top: 20px;
+       margin-left: 50px;
+    }
+    .list4{
+        margin-top: 15px;
+        color: white;
+
+    }
+    .line2{
+        width: 100px;
+        height: 2px;
+        color: black;
+    }
+    .main{
+        display: flex;
+    }
+    .mn{
+        display: flex;
+    }
